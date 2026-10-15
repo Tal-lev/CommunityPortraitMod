@@ -8,8 +8,16 @@ Allows you to replace a character's portrait with portraits made by the communit
 - Much cool.
   - Very doge.
 
-## Install
+Installation
 
-- Do this.
-- Do that.
-  - Nope, not that.
+Use r2modman by ebkr from Thunderstore or GitHub.
+
+While the mod has been tested decently well it is recommended to backup your save from %USERPROFILE%\Saved Games\Hades II\Profile*.sav in case there are issues.
+Credits
+
+- @burn on the HadesModding discord for Aios portrait
+- @tua_flores on the HadesTheGame reddit for Velyasa portrait
+
+Issues
+
+Report any issues on the mod [github](https://github.com/Tal-lev/CommunityPortraitMod/issues) or [Hades Modding discord](https://discord.gg/KuMbyrN)
