@@ -1,0 +1,49 @@
+[config]
+schemaVersion = "1.0.0"
+
+
+[package]
+namespace = "JarlUlsfark"
+name = "CommunityPortraitMod"
+versionNumber = "1.0.0"
+description = "Allows you to replace a character's portrait with portraits made by the community."
+websiteUrl = "https://github.com/Tal-lev/CommunityPortraitMod"
+containsNsfwContent = false
+
+[package.dependencies]
+Hell2Modding-Hell2Modding = "1.0.70"
+LuaENVY-ENVY = "1.2.0"
+SGG_Modding-Chalk = "2.1.1"
+SGG_Modding-ReLoad = "1.0.2"
+SGG_Modding-SJSON = "1.0.0"
+SGG_Modding-ModUtil = "4.0.1"
+
+
+[build]
+icon = "./icon.png"
+readme = "./README.md"
+outdir = "./build"
+
+[[build.copy]]
+source = "./CHANGELOG.md"
+target = "./CHANGELOG.md"
+
+[[build.copy]]
+source = "./LICENSE"
+target = "./LICENSE"
+
+[[build.copy]]
+source = "./src"
+target = "./plugins"
+
+[[build.copy]]
+source = "./data"
+target = "./plugins_data"
+
+
+[publish]
+repository = "https://thunderstore.io"
+communities = [ "hades-ii", ]
+
+[publish.categories]
+hades-ii = [ "mods", ]
