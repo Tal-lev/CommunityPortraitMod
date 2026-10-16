@@ -6,6 +6,9 @@ Allows you to replace a character's portrait with portraits made by the communit
 
 Replace a character's portrait with portraits made by the community
 
+<div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+  <img src="https://media.githubusercontent.com/media/Tal-lev/CommunityPortraitMod/refs/heads/main/images/CommunityPortraitMod.PNG" alt="PonyDressList" width="70%">
+</div>
 
 ## Installation
 
