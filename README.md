@@ -30,7 +30,7 @@ While the mod has been tested decently well it is recommended to backup your sav
 
 ## Credits
 
-- @burn on the HadesModding discord for Aios portrait.
+- @burn on the HadesModding discord for Aion portrait.
 - @tua_flores on the HadesTheGame reddit for Velyasa portrait.
 - @Plartsypus on SuperGiantGames discord for LaulauStern portrait, commissioned by @LaulauStern on vgen.
 - @kazzymau on SuperGiantGames discord for Kenny Omega portrait.
