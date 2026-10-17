@@ -46,10 +46,7 @@ local function on_ready()
 	import "CommunityPortraitAnimations.lua"
 	import "data.lua"
 	import "imgui.lua"
-	modutil.once_loaded.game(function()
-		import 'ready.lua'
-		SetupRunData()
-	end)
+	import 'ready.lua'
 end
 
 local function on_reload()

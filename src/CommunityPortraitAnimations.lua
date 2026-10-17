@@ -65,6 +65,33 @@ sjson.hook(file, function(data)
 	TextOrder)
 	)
 
+	--Aiden Satyr
+	table.insert(data.Animations, sjson.to_object(
+	{
+		Name = "Portrait_Community_AidenSatyr_Default_01",
+		InheritFrom = "Portrait_Base_01",
+		FilePath = "JarlUlsfark-CommunityPortraitMod\\AidenSatyr_by_Plartsypus_com_Rose_Rosenfield",
+		OffsetX = -150,
+		OffsetY = -40,
+		Alpha = 1,
+		Scale = 0.5,
+	},
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+	{
+		Name = "Portrait_Community_AidenSatyr_Default_01_Exit",
+		InheritFrom = "Portrait_Base_01_Exit",
+		FilePath = "JarlUlsfark-CommunityPortraitMod\\AidenSatyr_by_Plartsypus_com_Rose_Rosenfield",
+		OffsetX = -150,
+		OffsetY = -40,
+		Alpha = 1,
+		Scale = 0.5,
+	},
+	TextOrder)
+	)
+
 	--Kenny Omega
 	table.insert(data.Animations, sjson.to_object(
 	{

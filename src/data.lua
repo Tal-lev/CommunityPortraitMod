@@ -20,10 +20,11 @@ mod.AnimationDisplayOrder = {
     {
         "Base",
         --"Hades1",
-        "Velyasa",
-        "Laulaustern",
+        --"Velyasa",
+        --"Laulaustern",
         "KennyOmega",
         "Aion",
+        "AidenSatyr",
     },
     Hera = 
     {
@@ -31,8 +32,8 @@ mod.AnimationDisplayOrder = {
         --"Hades1",
         "Velyasa",
         "Laulaustern",
-        "KennyOmega",
-        "Aion",
+        --"KennyOmega",
+        --"Aion",
     },
     Poseidon = 
     {
@@ -41,6 +42,7 @@ mod.AnimationDisplayOrder = {
         --"Hades1",
         "KennyOmega",
         "Aion",
+        "AidenSatyr",
     },
     Demeter =
     {
@@ -55,6 +57,7 @@ mod.AnimationDisplayOrder = {
         --"Hades1",
         "KennyOmega",
         "Aion",
+        "AidenSatyr",
     },
     Aphrodite = 
     {
@@ -69,6 +72,7 @@ mod.AnimationDisplayOrder = {
         --"Hades1",
         "KennyOmega",
         "Aion",
+        "AidenSatyr",
     },
     Hestia =
     {
@@ -83,6 +87,7 @@ mod.AnimationDisplayOrder = {
         --"Hades1",
         "KennyOmega",
         "Aion",
+        "AidenSatyr",
     },
     Artemis = 
     {
@@ -97,6 +102,7 @@ mod.AnimationDisplayOrder = {
         --"Hades1",
         "KennyOmega",
         "Aion",
+        "AidenSatyr",
     },
     Athena =
     {
@@ -114,6 +120,7 @@ mod.AnimationDisplayOrder = {
         "Laulaustern",
         "KennyOmega",
         "Aion",
+        "AidenSatyr",
     },
 }
 
@@ -226,6 +233,7 @@ mod.NewAnimation =
 {
     Velyasa = "Portrait_Community_Velyasa_Default_01",
     Laulaustern = "Portrait_Community_Laulaustern_Default_01",
+    AidenSatyr = "Portrait_Community_AidenSatyr_Default_01",
     KennyOmega = "Portrait_Community_KennyOmega_Default_01",
     Aion = "Portrait_Community_Aion_Default_01",
     AltPoseidon = "Portrait_Community_AlternatePoseidon_Default_01",
