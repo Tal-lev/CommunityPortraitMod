@@ -39,3 +39,7 @@ While the mod has been tested decently well it is recommended to backup your sav
 ## Issues
 
 Report any issues on the mod [github](https://github.com/Tal-lev/CommunityPortraitMod/issues) or [Hades Modding discord](https://discord.gg/KuMbyrN)
+
+## Adding your Hades-style portraits to the mod
+
+Contact on [Hades Modding discord](https://discord.gg/KuMbyrN) in the thread requests-H2 -> Community Portrait Mod
