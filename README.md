@@ -1,6 +1,6 @@
 # CommunityPortraitMod
 
-Allows you to replace a character's portrait with portraits made by the community
+Allows you to replace a character's portrait with portraits made by the community or their Hades 1 portrait.
 
 ## Features
 
