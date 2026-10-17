@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Added Portraits from the original Hades
 - Added AidenSatyr by @Plartsypus commissioned by @Rose_Rosenfield
 - Added image explaining how to use the mod on the readme.
 - Fix: Only the character currently selected in the menu is changed
