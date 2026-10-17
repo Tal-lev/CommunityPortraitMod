@@ -7,11 +7,6 @@
 
 function mod.SwapPortrait()
 	--No need to run if nothing changed.
-	print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-	for key,value in pairs(config) do
-		print(key)
-		print(value)
-	end
 	if mod.ConfigChanged == 0 then
 		return
 	end
