@@ -25,6 +25,19 @@ sjson.hook(file, function(data)
 	TextOrder)
 	)
 
+	table.insert(data.Animations, sjson.to_object(
+	{
+		Name = "Portrait_Community_Velyasa_Default_01_Exit",
+		InheritFrom = "Portrait_Base_01_Exit",
+		FilePath = "JarlUlsfark-CommunityPortraitMod\\Velyasa_By_tua_flores",
+		OffsetX = -150,
+		OffsetY = -40,
+		Alpha = 1,
+		Scale = 0.4,
+	},
+	TextOrder)
+	)
+
 	--Laulaustern
 	table.insert(data.Animations, sjson.to_object(
 	{
@@ -102,6 +115,33 @@ sjson.hook(file, function(data)
 		OffsetY = -40,
 		Alpha = 1,
 		Scale = 0.55,
+	},
+	TextOrder)
+	)
+
+	--Alternate Poseidon
+	table.insert(data.Animations, sjson.to_object(
+	{
+		Name = "Portrait_Community_AlternatePoseidon_Default_01",
+		InheritFrom = "Portrait_Base_01",
+		FilePath = "JarlUlsfark-CommunityPortraitMod\\Alternate_Poseidon_by_vidal",
+		OffsetX = -70,
+		OffsetY = 20,
+		Alpha = 1,
+		Scale = 0.35,
+	},
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+	{
+		Name = "Portrait_Community_AlternatePoseidon_Default_01_Exit",
+		InheritFrom = "Portrait_Base_01_Exit",
+		FilePath = "JarlUlsfark-CommunityPortraitMod\\Alternate_Poseidon_by_vidal",
+		OffsetX = -70,
+		OffsetY = 20,
+		Alpha = 1,
+		Scale = 0.35,
 	},
 	TextOrder)
 	)

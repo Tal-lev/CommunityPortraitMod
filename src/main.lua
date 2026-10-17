@@ -44,6 +44,8 @@ local function on_ready()
 	mod = modutil.mod.Mod.Register(_PLUGIN.guid)
 
 	import "CommunityPortraitAnimations.lua"
+	import "data.lua"
+	import "imgui.lua"
 	modutil.once_loaded.game(function()
 		import 'ready.lua'
 		SetupRunData()

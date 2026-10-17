@@ -5,32 +5,35 @@
 -- this file will be reloaded if it changes during gameplay,
 -- 	so only assign to values or define things here.
 
-
--- These functions are part of the example code snippets from ready.lua
-function sjson_ShellText(data)
-	for _,v in ipairs(data.Texts) do
-		if v.Id == 'MainMenuScreen_PlayGame' then
-			v.DisplayName = 'Test ' .. _PLUGIN.guid
-			break
-		end
+function mod.SwapPortrait()
+	--No need to run if nothing changed.
+	if mod.ConfigChanged == 0 then
+		return
 	end
+
+	for _,Character in pairs(mod.CharDisplayOrder) do
+		if config[config.Character] == "Base" then
+			for key,origAnim in pairs(mod.OriginalAnimations[config.Character]) do
+				SwapAnimation({ Name = origAnim, Reverse = true })
+				SwapAnimation({ Name = origAnim .. "_Exit", Reverse = true })
+			end
+		else
+			for key,origAnim in pairs(mod.OriginalAnimations[config.Character]) do
+				SwapAnimation({ Name = origAnim, DestinationName = mod.NewAnimation[config[config.Character]] })
+				SwapAnimation({ Name = origAnim .. "_Exit", DestinationName  = mod.NewAnimation[config[config.Character]] .. "_Exit" })
+			end
+		end
+		
+	end
+	--At the end of the function reset ConfigChanged
+	mod.ConfigChanged = 0
+	return
 end
 
-function prefix_SetupMap()
-	print('Map is loading, here we might load some packages.')
-	-- LoadPackages({Name = package_name_string})
+function mod.RevertAllPortraits()
+	for key,Char in pairs(mod.CharDisplayOrder) do
+		config[Char] = "Base"
+	end
+	mod.ConfigChanged = 1
 end
-
-function trigger_Gift()
-	modutil.mod.Hades.PrintOverhead(config.message)
-end
-
-
--------------------------------------------------------------------
--- This function is part of the mod creation guide from the wiki --
--------------------------------------------------------------------
-function mod.LoadSkellyPackage()
-	local packageName = _PLUGIN.guid .. "Portraits"
-	print("AuthorName-ModName - Loading package: " .. packageName)
-	LoadPackages({ Name = packageName })
-end
+	
