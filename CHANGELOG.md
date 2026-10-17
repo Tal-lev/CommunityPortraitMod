@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-10-17
+
 - Added Portraits from the original Hades
 - Added AidenSatyr by @Plartsypus commissioned by @Rose_Rosenfield
 - Added image explaining how to use the mod on the readme.
@@ -18,5 +20,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First version of the mod!
 
-[unreleased]: https://github.com/Tal-lev/CommunityPortraitMod/compare/0.1.0...HEAD
+[unreleased]: https://github.com/Tal-lev/CommunityPortraitMod/compare/0.2.0...HEAD
+[0.2.0]: https://github.com/Tal-lev/CommunityPortraitMod/compare/0.1.0...0.2.0
 [0.1.0]: https://github.com/Tal-lev/CommunityPortraitMod/compare/5464da7cb1b6510b8ebf890127569d8c2634015e...0.1.0
