@@ -20,7 +20,7 @@ Once you're done click apply and all changes made will occur on the next map tra
 Clicking RevertAll will change all portraits back to the basegame.
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
-  <img src="https://media.githubusercontent.com/media/Tal-lev/CommunityPortraitMod/refs/heads/main/images/explanation.png" alt="PonyDressList" width="80%">
+  <img src="https://media.githubusercontent.com/media/Tal-lev/CommunityPortraitMod/refs/heads/main/images/explanation.png" alt="PonyDressList" width="60%">
 </div>
 
 ## Installation
