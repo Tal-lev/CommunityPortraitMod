@@ -13,8 +13,11 @@ Replace a character's portrait with portraits made by the community
 ## Using the mod
 
 To change portraits open the GUI menu
+
 to open the mod tab select Windows->JarlUlsfark-CommunityPortraitMod 
+
 in the menu select the character you with to change its portrait then select which portrait to change to.
+
 Once you're done click apply and all changes made will occur on the next map transition.
 
 Clicking RevertAll will change all portraits back to the basegame.
