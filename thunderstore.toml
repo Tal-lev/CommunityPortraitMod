@@ -6,7 +6,7 @@ schemaVersion = "1.0.0"
 namespace = "JarlUlsfark"
 name = "CommunityPortraitMod"
 versionNumber = "0.1.0"
-description = "Allows you to replace a character's portrait with portraits made by the community."
+description = "Allows you to replace a character's portrait with portraits made by the community or their Hades 1 portraits."
 websiteUrl = "https://github.com/Tal-lev/CommunityPortraitMod"
 containsNsfwContent = false
 
@@ -46,4 +46,4 @@ repository = "https://thunderstore.io"
 communities = [ "hades-ii", ]
 
 [publish.categories]
-hades-ii = [ "mods", ]
+hades-ii = [ "mods", "Cosmetics", ]
