@@ -19,9 +19,7 @@ mod.AnimationDisplayOrder = {
     Zeus = 
     {
         "Base",
-        --"Hades1",
-        --"Velyasa",
-        --"Laulaustern",
+        "Hades1",
         "KennyOmega",
         "Aion",
         "AidenSatyr",
@@ -29,17 +27,14 @@ mod.AnimationDisplayOrder = {
     Hera = 
     {
         "Base",
-        --"Hades1",
         "Velyasa",
         "Laulaustern",
-        --"KennyOmega",
-        --"Aion",
     },
     Poseidon = 
     {
         "Base",
+        "Hades1",
         "AltPoseidon",
-        --"Hades1",
         "KennyOmega",
         "Aion",
         "AidenSatyr",
@@ -47,14 +42,13 @@ mod.AnimationDisplayOrder = {
     Demeter =
     {
         "Base",
-        --"Hades1",
+        "Hades1",
         "Velyasa",
         "Laulaustern",
     },
     Apollo = 
     {
         "Base",
-        --"Hades1",
         "KennyOmega",
         "Aion",
         "AidenSatyr",
@@ -62,14 +56,13 @@ mod.AnimationDisplayOrder = {
     Aphrodite = 
     {
         "Base",
-        --"Hades1",
+        "Hades1",
         "Velyasa",
         "Laulaustern",
     },  
     Hephaestus =
     {
         "Base",
-        --"Hades1",
         "KennyOmega",
         "Aion",
         "AidenSatyr",
@@ -77,14 +70,13 @@ mod.AnimationDisplayOrder = {
     Hestia =
     {
         "Base",
-        --"Hades1",
         "Velyasa",
         "Laulaustern",
     },
     Ares = 
     {
         "Base",
-        --"Hades1",
+        "Hades1",
         "KennyOmega",
         "Aion",
         "AidenSatyr",
@@ -92,14 +84,14 @@ mod.AnimationDisplayOrder = {
     Artemis = 
     {
         "Base",
-        --"Hades1",
+        "Hades1",
         "Velyasa",
         "Laulaustern",
     },
     Dionysus = 
     {
         "Base",
-        --"Hades1",
+        "Hades1",
         "KennyOmega",
         "Aion",
         "AidenSatyr",
@@ -107,7 +99,7 @@ mod.AnimationDisplayOrder = {
     Athena =
     {
         "Base",
-        --"Hades1",
+        "Hades1",
         "Velyasa",
         "Laulaustern",
     },
@@ -115,7 +107,7 @@ mod.AnimationDisplayOrder = {
     {
         "Base",
         --"Random",
-        --"Hades1",
+        "Hades1",
         "Velyasa",
         "Laulaustern",
         "KennyOmega",

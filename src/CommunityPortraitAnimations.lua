@@ -173,6 +173,213 @@ sjson.hook(file, function(data)
 	TextOrder)
 	)
 
+	table.insert(data.Animations, sjson.to_object(
+	{
+      Name = "Portrait_H1Community_Zeus_Default_01",
+      InheritFrom = "Portrait_Base_01",
+      --ChildAnimation = "PortraitGodRayEmitter_Zeus"
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Zeus_01",
+	  OffsetX = -50.0,
+	  OffsetY = 20.0,
+    },
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+    {
+      Name = "Portrait_H1Community_Zeus_Default_01_Exit",
+      InheritFrom = "Portrait_Base_01_Exit",
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Zeus_01",
+	  OffsetX = -50.0,
+	  OffsetY = 20.0,
+    },
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+    {
+      Name = "Portrait_H1Community_Poseidon_Default_01",
+      InheritFrom = "Portrait_Base_01",
+      --ChildAnimation = "PortraitGodRayEmitter_Poseidon"
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Poseidon_01",
+	  OffsetX = -50.0,
+      OffsetY = -50.0,
+    },
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+    {
+      Name = "Portrait_H1Community_Poseidon_Default_01_Exit",
+      InheritFrom = "Portrait_Base_01_Exit",
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Poseidon_01",
+	  OffsetX = -50.0,
+      OffsetY = -50.0,
+    },
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+	{
+      Name = "Portrait_H1Community_Artemis_Default_01",
+      InheritFrom = "Portrait_God_01",
+      --ChildAnimation = "PortraitGodRayEmitter_Artemis",
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Artemis_01",
+	  OffsetX = -50.0,
+	  OffsetY = 20.0,
+    },
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+    {
+      Name = "Portrait_H1Community_Artemis_Default_01_Exit",
+      InheritFrom = "Portrait_Base_01_Exit",
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Artemis_01",
+	  OffsetX = -50.0,
+	  OffsetY = 20.0,
+    },
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+    {
+      Name = "Portrait_H1Community_Aphrodite_Default_01",
+      InheritFrom = "Portrait_God_01",
+      --ChildAnimation = "PortraitGodRayEmitter_Aphrodite",
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Aphrodite_01",
+	  Scale = 1.05,
+	  OffsetX = -50.0,
+      OffsetY = -40.0,
+    },
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+    {
+      Name = "Portrait_H1Community_Aphrodite_Default_01_Exit",
+      InheritFrom = "Portrait_Base_01_Exit",
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Aphrodite_01",
+	  Scale = 1.05,
+	  OffsetX = -50.0,
+      OffsetY = -40.0,
+    },
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+    {
+      Name = "Portrait_H1Community_Ares_Default_01",
+      InheritFrom = "Portrait_God_01",
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Ares_01",
+      --ChildAnimation = "Portrait_Ares_Blink"
+	  OffsetX = -50.0,
+      OffsetY = -90,
+    },
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+	{
+      Name = "Portrait_H1Community_Ares_Default_01_Exit",
+      InheritFrom = "Portrait_Base_01_Exit",
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Ares_01",
+	  OffsetX = -50.0,
+      OffsetY = -90.0,
+    },
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+    {
+      Name = "Portrait_H1Community_Dionysus_Default_01",
+      InheritFrom = "Portrait_God_01",
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Dionysus_01",
+	  OffsetX = -50.0,
+	  OffsetY = 20.0,
+      --ChildAnimation = "Portrait_Dionysus_Blink",
+    },
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+	{
+      Name = "Portrait_H1Community_Dionysus_Default_01_Exit",
+      InheritFrom = "Portrait_Base_01_Exit",
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Dionysus_01",
+	  OffsetX = -50.0,
+	  OffsetY = 20.0,
+    },
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+	{
+      Name = "Portrait_H1Community_Chaos_Default_01",
+      InheritFrom = "Portrait_Base_01",
+      --ChildAnimation = "Portrait_Chaos_Default_02",
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Chaos_01",
+	  OffsetX = -50.0,
+	  OffsetY = 20.0,
+    },
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+	{
+      Name = "Portrait_H1Community_Chaos_Default_01_Exit",
+      InheritFrom = "Portrait_Base_01_Exit",
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Chaos_01",
+	  OffsetX = -50.0,
+	  OffsetY = 20.0,
+    },
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+	{
+      Name = "Portrait_H1Community_Athena_Default_01",
+      InheritFrom = "Portrait_God_01",
+      --ChildAnimation = "AthenaBlink"
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Athena_01",
+	  OffsetX = -50.0,
+	  OffsetY = 20.0,
+    },
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+	{
+      Name = "Portrait_H1Community_Athena_Default_01_Exit",
+      InheritFrom = "Portrait_Base_01_Exit",
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Athena_01",
+	  OffsetX = -50.0,
+	  OffsetY = 20.0,
+    },
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+	{
+      Name = "Portrait_H1Community_Demeter_Default_01",
+      InheritFrom = "Portrait_God_01",
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Demeter_01",
+	  OffsetX = -50.0,
+	  OffsetY = 20.0,
+    },
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+    {
+      Name = "Portrait_H1Community_Demeter_Default_01_Exit",
+      InheritFrom = "Portrait_Base_01_Exit",
+      FilePath = "JarlUlsfark-H1PortraitMod\\Portraits_Demeter_01",
+	  OffsetX = -50.0,
+	  OffsetY = 20.0,
+    },
+	TextOrder)
+	)
 	
 return data
 end)

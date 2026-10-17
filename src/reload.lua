@@ -7,20 +7,30 @@
 
 function mod.SwapPortrait()
 	--No need to run if nothing changed.
+	print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+	for key,value in pairs(config) do
+		print(key)
+		print(value)
+	end
 	if mod.ConfigChanged == 0 then
 		return
 	end
 
 	for _,Character in pairs(mod.CharDisplayOrder) do
-		if config[config.Character] == "Base" then
-			for key,origAnim in pairs(mod.OriginalAnimations[config.Character]) do
+		if config[Character] == "Base" then
+			for key,origAnim in pairs(mod.OriginalAnimations[Character]) do
 				SwapAnimation({ Name = origAnim, Reverse = true })
 				SwapAnimation({ Name = origAnim .. "_Exit", Reverse = true })
 			end
+		elseif config[Character] == "Hades1" then
+			for key,origAnim in pairs(mod.OriginalAnimations[Character]) do
+				SwapAnimation({ Name = origAnim, DestinationName = "Portrait_H1Community_" .. Character .. "_Default_01" })
+				SwapAnimation({ Name = origAnim .. "_Exit", DestinationName  = Character .. "_Default_01_Exit" })
+			end
 		else
-			for key,origAnim in pairs(mod.OriginalAnimations[config.Character]) do
-				SwapAnimation({ Name = origAnim, DestinationName = mod.NewAnimation[config[config.Character]] })
-				SwapAnimation({ Name = origAnim .. "_Exit", DestinationName  = mod.NewAnimation[config[config.Character]] .. "_Exit" })
+			for key,origAnim in pairs(mod.OriginalAnimations[Character]) do
+				SwapAnimation({ Name = origAnim, DestinationName = mod.NewAnimation[config[Character]] })
+				SwapAnimation({ Name = origAnim .. "_Exit", DestinationName  = mod.NewAnimation[config[Character]] .. "_Exit" })
 			end
 		end
 		
