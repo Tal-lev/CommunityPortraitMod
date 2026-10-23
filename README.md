@@ -12,7 +12,7 @@ Replace a character's portrait with portraits made by the community
 
 ## Using the mod
 
-To change portraits open the GUI menu
+To change portraits open the GUI menu (Default Insert button)
 
 to open the mod tab select Windows->JarlUlsfark-CommunityPortraitMod 
 
