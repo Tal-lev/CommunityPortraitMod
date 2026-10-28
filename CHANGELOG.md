@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Added AbsoluteBatman by BurritoSalvaje on HadesTheGame reddit
+- Added SquirrelGirl by MinouLyra on HadesTheGame reddit
+
 ## [0.2.0] - 2026-10-17
 
 - Added Portraits from the original Hades
