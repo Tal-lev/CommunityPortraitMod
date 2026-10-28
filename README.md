@@ -42,7 +42,7 @@ While the mod has been tested decently well it is recommended to backup your sav
 - @kazzymau on SuperGiantGames discord for Kenny Omega portrait.
 - @vidal on SuperGiantGames discord for Alternate Poseidon portrait
 - @BurritoSalavaje for Absolute Batman Portrait.
-- MinouLyra on the HadesTheGame reddit for Squirrel Girl portrait.
+- @MinouLyra on the HadesTheGame reddit for Squirrel Girl portrait.
 
 ## Issues
 
