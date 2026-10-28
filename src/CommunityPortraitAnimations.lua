@@ -168,7 +168,61 @@ sjson.hook(file, function(data)
 		OffsetX = -70,
 		OffsetY = 20,
 		Alpha = 1,
-		Scale = 0.35,
+		Scale = 0.55,
+	},
+	TextOrder)
+	)
+
+	--Absolute Batman
+	table.insert(data.Animations, sjson.to_object(
+	{
+		Name = "Portrait_Community_AbsoluteBatman_Default_01",
+		InheritFrom = "Portrait_Base_01",
+		FilePath = "JarlUlsfark-CommunityPortraitMod\\AbsoluteBatman_by_PresentationMean2089",
+		OffsetX = -20,
+		OffsetY = 20,
+		Alpha = 1,
+		Scale = 0.55,
+	},
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+	{
+		Name = "Portrait_Community_AbsoluteBatman_Default_01_Exit",
+		InheritFrom = "Portrait_Base_01_Exit",
+		FilePath = "JarlUlsfark-CommunityPortraitMod\\AbsoluteBatman_by_PresentationMean2089",
+		OffsetX = -20,
+		OffsetY = 20,
+		Alpha = 1,
+		Scale = 0.55,
+	},
+	TextOrder)
+	)
+
+	--SquirrelGirl
+	table.insert(data.Animations, sjson.to_object(
+	{
+		Name = "Portrait_Community_SquirrelGirl_Default_01",
+		InheritFrom = "Portrait_Base_01",
+		FilePath = "JarlUlsfark-CommunityPortraitMod\\SquirrelGirl_by_MinouLyra",
+		OffsetX = -20,
+		OffsetY = 20,
+		Alpha = 1,
+		Scale = 1.0,
+	},
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+	{
+		Name = "Portrait_Community_SquirrelGirl_Default_01_Exit",
+		InheritFrom = "Portrait_Base_01_Exit",
+		FilePath = "JarlUlsfark-CommunityPortraitMod\\SquirrelGirl_by_MinouLyra",
+		OffsetX = -20,
+		OffsetY = 20,
+		Alpha = 1,
+		Scale = 1.0,
 	},
 	TextOrder)
 	)

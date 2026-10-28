@@ -23,12 +23,14 @@ mod.AnimationDisplayOrder = {
         "KennyOmega",
         "Aion",
         "AidenSatyr",
+        "Batman",
     },
     Hera = 
     {
         "Base",
         "Velyasa",
         "Laulaustern",
+        "SquirrelGirl",
     },
     Poseidon = 
     {
@@ -38,6 +40,7 @@ mod.AnimationDisplayOrder = {
         "KennyOmega",
         "Aion",
         "AidenSatyr",
+        "Batman",
     },
     Demeter =
     {
@@ -45,6 +48,7 @@ mod.AnimationDisplayOrder = {
         "Hades1",
         "Velyasa",
         "Laulaustern",
+        "SquirrelGirl",
     },
     Apollo = 
     {
@@ -52,6 +56,7 @@ mod.AnimationDisplayOrder = {
         "KennyOmega",
         "Aion",
         "AidenSatyr",
+        "Batman",
     },
     Aphrodite = 
     {
@@ -59,6 +64,7 @@ mod.AnimationDisplayOrder = {
         "Hades1",
         "Velyasa",
         "Laulaustern",
+        "SquirrelGirl",
     },  
     Hephaestus =
     {
@@ -66,12 +72,14 @@ mod.AnimationDisplayOrder = {
         "KennyOmega",
         "Aion",
         "AidenSatyr",
+        "Batman",
     },
     Hestia =
     {
         "Base",
         "Velyasa",
         "Laulaustern",
+        "SquirrelGirl",
     },
     Ares = 
     {
@@ -80,6 +88,7 @@ mod.AnimationDisplayOrder = {
         "KennyOmega",
         "Aion",
         "AidenSatyr",
+        "Batman",
     },
     Artemis = 
     {
@@ -87,6 +96,7 @@ mod.AnimationDisplayOrder = {
         "Hades1",
         "Velyasa",
         "Laulaustern",
+        "SquirrelGirl",
     },
     Dionysus = 
     {
@@ -95,6 +105,7 @@ mod.AnimationDisplayOrder = {
         "KennyOmega",
         "Aion",
         "AidenSatyr",
+        "Batman",
     },
     Athena =
     {
@@ -102,6 +113,7 @@ mod.AnimationDisplayOrder = {
         "Hades1",
         "Velyasa",
         "Laulaustern",
+        "SquirrelGirl",
     },
     Chaos = 
     {
@@ -113,6 +125,8 @@ mod.AnimationDisplayOrder = {
         "KennyOmega",
         "Aion",
         "AidenSatyr",
+        "Batman",
+        "SquirrelGirl",
     },
 }
 
@@ -229,6 +243,8 @@ mod.NewAnimation =
     KennyOmega = "Portrait_Community_KennyOmega_Default_01",
     Aion = "Portrait_Community_Aion_Default_01",
     AltPoseidon = "Portrait_Community_AlternatePoseidon_Default_01",
+    Batman = "Portrait_Community_AbsoluteBatman_Default_01",
+    SquirrelGirl = "Portrait_Community_SquirrelGirl_Default_01",
 }
 
 mod.ConfigChanged = 0
