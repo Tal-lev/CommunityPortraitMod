@@ -5,7 +5,7 @@ schemaVersion = "1.0.0"
 [package]
 namespace = "JarlUlsfark"
 name = "CommunityPortraitMod"
-versionNumber = "0.2.0"
+versionNumber = "0.3.0"
 description = "Allows you to replace a character's portrait with portraits made by the community or their Hades 1 portraits."
 websiteUrl = "https://github.com/Tal-lev/CommunityPortraitMod"
 containsNsfwContent = false
