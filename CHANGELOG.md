@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-11-03
+
 - Added Random portrait option for chaos.
 - Added Ganesha by Nocturne219 on twitter.
 - Added Saraswati by Nocturne219 on twitter.
@@ -31,7 +33,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First version of the mod!
 
-[unreleased]: https://github.com/Tal-lev/CommunityPortraitMod/compare/0.3.0...HEAD
+[unreleased]: https://github.com/Tal-lev/CommunityPortraitMod/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/Tal-lev/CommunityPortraitMod/compare/0.3.0...1.0.0
 [0.3.0]: https://github.com/Tal-lev/CommunityPortraitMod/compare/0.2.0...0.3.0
 [0.2.0]: https://github.com/Tal-lev/CommunityPortraitMod/compare/0.1.0...0.2.0
 [0.1.0]: https://github.com/Tal-lev/CommunityPortraitMod/compare/5464da7cb1b6510b8ebf890127569d8c2634015e...0.1.0
