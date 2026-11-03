@@ -4,15 +4,15 @@ Allows you to replace a character's portrait with portraits made by the communit
 
 ## Features
 
-#### Replace a character's portrait with portraits made by the community
+### Replace a character's portrait with portraits made by the community
 
 <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
   <img src="https://media.githubusercontent.com/media/Tal-lev/CommunityPortraitMod/refs/heads/main/images/CommunityPortraits.PNG" alt="PonyDressList" width="80%">
 </div>
 
-#### Replace a character's portrait with its portrait from the original Hades
+### Replace a character's portrait with its portrait from the original Hades
 
-#### Randomize Chaos's portrait every run
+### Randomize Chaos's portrait every run
 
 ## Using the mod
 
