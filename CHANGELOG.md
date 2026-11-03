@@ -7,17 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Added Random portrait option for chaos.
+- Added Ganesha by Nocturne219 on twitter.
+- Added Saraswati by Nocturne219 on twitter.
+- Added H1 portraits to the readme.
+- Added how to open the imgui in the readme
+
 ## [0.3.0] - 2026-10-28
 
-- Added AbsoluteBatman by BurritoSalvaje on HadesTheGame reddit
-- Added SquirrelGirl by MinouLyra on HadesTheGame reddit
+- Added AbsoluteBatman by BurritoSalvaje on HadesTheGame reddit.
+- Added SquirrelGirl by MinouLyra on HadesTheGame reddit.
 
 ## [0.2.0] - 2026-10-17
 
-- Added Portraits from the original Hades
-- Added AidenSatyr by @Plartsypus commissioned by @Rose_Rosenfield
+- Added Portraits from the original Hades.
+- Added AidenSatyr by @Plartsypus commissioned by @Rose_Rosenfield.
 - Added image explaining how to use the mod on the readme.
-- Fix: Only the character currently selected in the menu is changed
+- Fix: Only the character currently selected in the menu is changed.
 
 ## [0.1.0] - 2026-10-17
 
