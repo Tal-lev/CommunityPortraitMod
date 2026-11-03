@@ -24,6 +24,7 @@ mod.AnimationDisplayOrder = {
         "Aion",
         "AidenSatyr",
         "Batman",
+        "Ganesha",
     },
     Hera = 
     {
@@ -31,6 +32,7 @@ mod.AnimationDisplayOrder = {
         "Velyasa",
         "Laulaustern",
         "SquirrelGirl",
+        "Saraswati",
     },
     Poseidon = 
     {
@@ -41,6 +43,7 @@ mod.AnimationDisplayOrder = {
         "Aion",
         "AidenSatyr",
         "Batman",
+        "Ganesha",
     },
     Demeter =
     {
@@ -49,6 +52,7 @@ mod.AnimationDisplayOrder = {
         "Velyasa",
         "Laulaustern",
         "SquirrelGirl",
+        "Saraswati",
     },
     Apollo = 
     {
@@ -57,6 +61,7 @@ mod.AnimationDisplayOrder = {
         "Aion",
         "AidenSatyr",
         "Batman",
+        "Ganesha",
     },
     Aphrodite = 
     {
@@ -65,6 +70,7 @@ mod.AnimationDisplayOrder = {
         "Velyasa",
         "Laulaustern",
         "SquirrelGirl",
+        "Saraswati",
     },  
     Hephaestus =
     {
@@ -73,6 +79,7 @@ mod.AnimationDisplayOrder = {
         "Aion",
         "AidenSatyr",
         "Batman",
+        "Ganesha",
     },
     Hestia =
     {
@@ -80,6 +87,7 @@ mod.AnimationDisplayOrder = {
         "Velyasa",
         "Laulaustern",
         "SquirrelGirl",
+        "Saraswati",
     },
     Ares = 
     {
@@ -89,6 +97,7 @@ mod.AnimationDisplayOrder = {
         "Aion",
         "AidenSatyr",
         "Batman",
+        "Ganesha",
     },
     Artemis = 
     {
@@ -97,6 +106,7 @@ mod.AnimationDisplayOrder = {
         "Velyasa",
         "Laulaustern",
         "SquirrelGirl",
+        "Saraswati",
     },
     Dionysus = 
     {
@@ -106,6 +116,7 @@ mod.AnimationDisplayOrder = {
         "Aion",
         "AidenSatyr",
         "Batman",
+        "Ganesha",
     },
     Athena =
     {
@@ -114,11 +125,12 @@ mod.AnimationDisplayOrder = {
         "Velyasa",
         "Laulaustern",
         "SquirrelGirl",
+        "Saraswati",
     },
     Chaos = 
     {
         "Base",
-        --"Random",
+        "Random",
         "Hades1",
         "Velyasa",
         "Laulaustern",
@@ -127,6 +139,8 @@ mod.AnimationDisplayOrder = {
         "AidenSatyr",
         "Batman",
         "SquirrelGirl",
+        "Ganesha",
+        "Saraswati",
     },
 }
 
@@ -245,6 +259,8 @@ mod.NewAnimation =
     AltPoseidon = "Portrait_Community_AlternatePoseidon_Default_01",
     Batman = "Portrait_Community_AbsoluteBatman_Default_01",
     SquirrelGirl = "Portrait_Community_SquirrelGirl_Default_01",
+    Ganesha = "Portrait_Community_Ganesha_Default_01",
+    Saraswati = "Portrait_Community_Saraswati_Default_01",
 }
 
 mod.ConfigChanged = 0

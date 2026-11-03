@@ -17,10 +17,10 @@ sjson.hook(file, function(data)
 		Name = "Portrait_Community_Velyasa_Default_01",
 		InheritFrom = "Portrait_Base_01",
 		FilePath = "JarlUlsfark-CommunityPortraitMod\\Velyasa_By_tua_flores",
-		OffsetX = -150,
+		OffsetX = -80,
 		OffsetY = -40,
 		Alpha = 1,
-		Scale = 0.4,
+		Scale = 0.57,
 	},
 	TextOrder)
 	)
@@ -30,10 +30,10 @@ sjson.hook(file, function(data)
 		Name = "Portrait_Community_Velyasa_Default_01_Exit",
 		InheritFrom = "Portrait_Base_01_Exit",
 		FilePath = "JarlUlsfark-CommunityPortraitMod\\Velyasa_By_tua_flores",
-		OffsetX = -150,
+		OffsetX = -80,
 		OffsetY = -40,
 		Alpha = 1,
-		Scale = 0.4,
+		Scale = 0.57,
 	},
 	TextOrder)
 	)
@@ -227,6 +227,61 @@ sjson.hook(file, function(data)
 	TextOrder)
 	)
 
+	--Ganesha
+	table.insert(data.Animations, sjson.to_object(
+	{
+		Name = "Portrait_Community_Ganesha_Default_01",
+		InheritFrom = "Portrait_Base_01",
+		FilePath = "JarlUlsfark-CommunityPortraitMod\\Ganesha_by_Nocturne219",
+		OffsetX = -70,
+		OffsetY = 20,
+		Alpha = 1,
+		Scale = 0.5,
+	},
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+	{
+		Name = "Portrait_Community_Ganesha_Default_01_Exit",
+		InheritFrom = "Portrait_Base_01_Exit",
+		FilePath = "JarlUlsfark-CommunityPortraitMod\\Ganesha_by_Nocturne219",
+		OffsetX = -70,
+		OffsetY = 20,
+		Alpha = 1,
+		Scale = 0.5,
+	},
+	TextOrder)
+	)
+
+	--Saraswati
+	table.insert(data.Animations, sjson.to_object(
+	{
+		Name = "Portrait_Community_Saraswati_Default_01",
+		InheritFrom = "Portrait_Base_01",
+		FilePath = "JarlUlsfark-CommunityPortraitMod\\Saraswati_by_Nocturne219",
+		OffsetX = -20,
+		OffsetY = -20,
+		Alpha = 1,
+		Scale = 0.5,
+	},
+	TextOrder)
+	)
+
+	table.insert(data.Animations, sjson.to_object(
+	{
+		Name = "Portrait_Community_Saraswati_Default_01_Exit",
+		InheritFrom = "Portrait_Base_01_Exit",
+		FilePath = "JarlUlsfark-CommunityPortraitMod\\Saraswati_by_Nocturne219",
+		OffsetX = -20,
+		OffsetY = -20,
+		Alpha = 1,
+		Scale = 0.5,
+	},
+	TextOrder)
+	)
+
+	--H1 Gods
 	table.insert(data.Animations, sjson.to_object(
 	{
       Name = "Portrait_H1Community_Zeus_Default_01",

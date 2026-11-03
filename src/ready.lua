@@ -1,7 +1,7 @@
 
 modutil.mod.Path.Wrap("SetupMap", function(base, source, args)
 	for key,value in pairs(config) do
-		if value == "Hades1" then
+		if value == "Hades1" or value == "Random" then
 			LoadPackages({ Name = "JarlUlsfark-H1PortraitMod", IgnoreAssert = true })
 			break
 		end
